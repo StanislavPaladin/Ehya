@@ -1,6 +1,47 @@
 .collection
     margin-top: 120px
+    &-image
+        border-radius: 8px
     &-wrapper
         margin: auto
         max-width: 1140px
         max-height: 490px
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        &__vertical-images
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-right: 58px
+        &__main-image
+            margin-right: 30px
+        &__button
+            display: flex
+            flex-direction: row
+            font-family: Open Sans
+            font-style: normal
+            font-weight: bold
+            font-size: 18px
+            line-height: 25px
+            color: #1565D8
+        &__about
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            &-header
+                font-family: HK Grotesk
+                font-style: normal
+                font-weight: bold
+                font-size: 48px
+                line-height: 60px
+                color: $main
+            &-text
+                max-width: 392px
+                max-height: 225px
+                font-family: Open Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 20px
+                line-height: 36px
+                color: $secondary
